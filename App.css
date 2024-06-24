@@ -1,0 +1,688 @@
+/* App.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+button[type="button"] {
+  background-color: #007bff;
+  margin-top: 10px;
+}
+
+button[type="button"]:hover {
+  background-color: #0069d9;
+}
+
+p {
+  color: #d9534f;
+  font-weight: bold;
+  text-align: center;
+}
+
+.register-success {
+  color: #28a745;
+  text-align: center;
+}
+
+
+/* App.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+button[type="button"] {
+  background-color: #007bff;
+  margin-top: 10px;
+}
+
+button[type="button"]:hover {
+  background-color: #0069d9;
+}
+
+p {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+.register-success {
+  color: #28a745;
+}
+
+/* App.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.welcome-box {
+  text-align: center;
+}
+
+.welcome-message {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.logout-button,
+.show-users-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.logout-button:hover,
+.show-users-button:hover {
+  background-color: #0056b3;
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* src/UserPopup.css */
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/*tienda_web*/
+/* Estilos App.css */
+.App {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5em;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.menu-dropdown {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  right: 10px;
+  top: 50px;
+  z-index: 1;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  cursor: pointer;
+  position: relative;
+}
+
+.cart-count {
+  background: red;
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  padding: 2px 6px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.cart-dropdown {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  border: 1px solid #000000;
+  right: 10px;
+  top: 50px;
+  z-index: 1;
+  width: 300px;
+}
+
+.cart-item {
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.cart-item-details {
+  color: rgb(0, 0, 0);
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.cart-total {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.buy-button {
+  background-color: #d42424;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.buy-button:hover {
+  background-color: #218838;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product p {
+  font-size: 14px;
+  color: #000000;
+}
+
+.add-to-cart-button {
+  background-color: #44d3d8;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3;
+}
+
+.login-form, .payment-form {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.login-form h2, .payment-form h2 {
+  margin-bottom: 20px;
+}
+
+.login-form form, .payment-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form form label, .payment-form form label {
+  margin-bottom: 10px;
+}
+
+.login-form form input, .payment-form form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.login-form form button, .payment-form form button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form form button:hover, .payment-form form button:hover {
+  background: #0056b3;
+}
+
+
+.App {
+
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.brand-name {
+  color: #61dafb;
+}
+
+.menu {
+  position: relative;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.menu-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.menu-dropdown button {
+  display: block;
+  margin: 5px 0;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar input {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  font-size: 1rem;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}
+
+.right-menu {
+  position: relative;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.cart-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: rgb(183, 183, 245);
+  border: 1px solid #000000;
+  width: 300px;
+  z-index: 1000;
+  text-align: left;
+  padding: 10px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-total {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.buy-button {
+  background-color: #fa1616;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.product {
+  border: 1px solid #615f5f;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: left;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  font-size: 1.25rem;
+  margin: 10px 0;
+}
+
+.product p {
+  margin: 5px 0;
+}
+
+.product button {
+  margin: 5px 0;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+}
+
+.payment-form {
+  background: rgb(255, 253, 253);
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+}
