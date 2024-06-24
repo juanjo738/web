@@ -1,0 +1,12 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Establece la altura del contenedor al 100% de la altura de la ventana */
+  }
+  
+  .login-content {
+    width: 300px; /* Ajusta el ancho del contenido de inicio de sesión */
+  }
+  
